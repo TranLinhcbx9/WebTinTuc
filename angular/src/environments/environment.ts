@@ -10,7 +10,7 @@ export const environment = {
     logoUrl: '',
   },
   oAuthConfig: {
-    issuer: 'https://localhost:44322',
+    issuer: 'http://172.16.250.54:44322',
     redirectUri: baseUrl,
     clientId: 'WebTinTuc_App',
     responseType: 'code',
@@ -19,7 +19,7 @@ export const environment = {
   },
   apis: {
     default: {
-      url: 'https://localhost:44322',
+      url: 'http://172.16.250.54:44322',
       rootNamespace: 'WebTinTuc',
     },
   },
